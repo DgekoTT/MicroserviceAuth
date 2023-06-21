@@ -17,8 +17,8 @@ COPY . .
 
 
 # Открываем порт, на котором будет работать приложение
-EXPOSE 4020
+EXPOSE 5010
 
 
 # Запускаем приложение
-CMD npm run start
+CMD npm run start:Auth
